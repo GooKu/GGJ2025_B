@@ -4,18 +4,19 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject badEndUI;
+    [SerializeField] private GameObject goodEndUI;
 
     public void GoodEnd()
     {
-        commonEndHandle();
         Debug.Log("GoodEnd");
-        //TODO
+        commonEndHandle();
+        goodEndUI.SetActive(true);
     }
 
     public void BadEnd()
     {
-        commonEndHandle();
         Debug.Log("BadEnd");
+        commonEndHandle();
         StartCoroutine(badEndShow());
     }
 
