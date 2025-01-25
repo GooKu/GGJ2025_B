@@ -13,6 +13,8 @@ public class Clicker : MonoBehaviour
 
     public void OnClick(bool isLeft)
     {
+        if (!enabled) { return; }
+
         var power = isLeft ? movePower : -movePower;
         player.GetComponent<Rigidbody2D>().AddForceX(power, ForceMode2D.Impulse);
     }
