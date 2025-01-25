@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Clicker : MonoBehaviour
@@ -12,7 +13,7 @@ public class Clicker : MonoBehaviour
 
     public void OnClick(bool isLeft)
     {
-        var power = isLeft ? -movePower : movePower;
+        var power = isLeft ? movePower : -movePower;
         player.GetComponent<Rigidbody2D>().AddForceX(power, ForceMode2D.Impulse);
     }
 }
