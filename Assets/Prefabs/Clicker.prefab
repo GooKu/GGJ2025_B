@@ -183,6 +183,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movePower: 1
+  clickEffectSample: {fileID: 1940777385892131995, guid: 93cae6a29572f324899f5998de2942ac, type: 3}
+  canvasRectTransform: {fileID: 0}
 --- !u!1 &8054697767086897355
 GameObject:
   m_ObjectHideFlags: 0
