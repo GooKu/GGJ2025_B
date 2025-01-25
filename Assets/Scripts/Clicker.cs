@@ -4,6 +4,8 @@ using UnityEngine;
 public class Clicker : MonoBehaviour
 {
     [SerializeField] private int movePower = 1;
+    [SerializeField] private GameObject clickEffectSample;
+    [SerializeField] RectTransform canvasRectTransform;
     private GameObject player;
 
     private void Awake()
@@ -17,5 +19,9 @@ public class Clicker : MonoBehaviour
 
         var power = isLeft ? movePower : -movePower;
         player.GetComponent<Rigidbody2D>().AddForceX(power, ForceMode2D.Impulse);
+
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRectTransform, Input.mousePosition, Camera.main, out var localPoint);
+        GameObject effectObject = Instantiate(clickEffectSample, canvasRectTransform);
+        effectObject.GetComponent<RectTransform>().anchoredPosition = localPoint;
     }
 }

@@ -934,6 +934,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2492679481618267350, guid: aa54b119ae5f671459866c84dd2d876b, type: 3}
+      propertyPath: clickEffectSample
+      value: 
+      objectReference: {fileID: 1940777385892131995, guid: 93cae6a29572f324899f5998de2942ac, type: 3}
+    - target: {fileID: 2492679481618267350, guid: aa54b119ae5f671459866c84dd2d876b, type: 3}
+      propertyPath: canvasRectTransform
+      value: 
+      objectReference: {fileID: 2012676666}
     - target: {fileID: 8010857115273377437, guid: aa54b119ae5f671459866c84dd2d876b, type: 3}
       propertyPath: m_Name
       value: Clicker
