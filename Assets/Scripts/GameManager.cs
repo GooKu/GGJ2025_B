@@ -1,7 +1,10 @@
+using System.Collections;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private GameObject badEndUI;
+
     public void GoodEnd()
     {
         commonEndHandle();
@@ -13,7 +16,13 @@ public class GameManager : MonoBehaviour
     {
         commonEndHandle();
         Debug.Log("BadEnd");
-        //TODO
+        StartCoroutine(badEndShow());
+    }
+
+    private IEnumerator badEndShow()
+    {
+        yield return new WaitForSeconds(.1f);//show time
+        badEndUI.SetActive(true);
     }
 
     private void commonEndHandle()
