@@ -1478,7 +1478,6 @@ Transform:
   - {fileID: 1912819104}
   - {fileID: 1741409279}
   - {fileID: 2012676666}
-  - {fileID: 1351200194}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!320 &985476418
@@ -2312,6 +2311,7 @@ MonoBehaviour:
   goodEndUI: {fileID: 9082833967274838226}
   stagePlayer: {fileID: 985476418}
   gamingBGM: {fileID: 8300000, guid: 92b0be2f32291dc43b790f1dc13d0aa6, type: 3}
+  goodEndBGM: {fileID: 8300000, guid: 41221587b233c8d4d815d1f30dc47ecc, type: 3}
 --- !u!4 &1351200194
 Transform:
   m_ObjectHideFlags: 0
@@ -2325,7 +2325,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 985476417}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1351200195
 MonoBehaviour:
@@ -3090,7 +3090,7 @@ Transform:
   m_GameObject: {fileID: 1872838017}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.91574895, y: 5.462826, z: -10}
+  m_LocalPosition: {x: -0.63, y: 36.8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4252,6 +4252,7 @@ SceneRoots:
   - {fileID: 1037104848}
   - {fileID: 879618811}
   - {fileID: 1933254769}
+  - {fileID: 1351200194}
   - {fileID: 1845613540}
   - {fileID: 505028706}
   - {fileID: 1830428710}

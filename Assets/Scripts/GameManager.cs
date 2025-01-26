@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private PlayableDirector stagePlayer;
     [Header("Sound")]
     [SerializeField] private AudioClip gamingBGM;
+    [SerializeField] private AudioClip goodEndBGM;
 
     private AudioSource audioSource;
 
@@ -30,8 +31,7 @@ public class GameManager : MonoBehaviour
         GameObject.FindAnyObjectByType<MoveUp>().enabled = true;
         GameObject.FindAnyObjectByType<Clicker>().enabled = true;
         GameObject.FindGameObjectWithTag(Tag.Player).GetComponent<Rigidbody2D>().simulated = true;
-        audioSource.clip = gamingBGM;
-        audioSource.Play();
+        PlayBGM(gamingBGM);
     }
 
     public void GoodEnd()
@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour
         Debug.Log("GoodEnd");
         commonEndHandle();
         goodEndUI.SetActive(true);
+        PlayBGM(goodEndBGM);
     }
 
     public void BadEnd()
@@ -59,5 +60,11 @@ public class GameManager : MonoBehaviour
         GameObject.FindAnyObjectByType<MoveUp>().enabled = false;
         GameObject.FindAnyObjectByType<Clicker>().enabled = false;
         GameObject.FindGameObjectWithTag(Tag.Player).GetComponent<Rigidbody2D>().simulated = false;
+    }
+
+    private void PlayBGM(AudioClip clip)
+    {
+        audioSource.clip = clip;
+        audioSource.Play();
     }
 }
