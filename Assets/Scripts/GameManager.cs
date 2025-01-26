@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
     //call by button
     public void PlayStartShow()
     {
+        audioSource.Stop();
         stagePlayer.Play();
     }
     //call by event
