@@ -2312,6 +2312,7 @@ MonoBehaviour:
   stagePlayer: {fileID: 985476418}
   gamingBGM: {fileID: 8300000, guid: 92b0be2f32291dc43b790f1dc13d0aa6, type: 3}
   goodEndBGM: {fileID: 8300000, guid: 41221587b233c8d4d815d1f30dc47ecc, type: 3}
+  badEndBGM: {fileID: 8300000, guid: 6fcc344eab45465478bfd1450c3caef5, type: 3}
 --- !u!4 &1351200194
 Transform:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     [Header("Sound")]
     [SerializeField] private AudioClip gamingBGM;
     [SerializeField] private AudioClip goodEndBGM;
+    [SerializeField] private AudioClip badEndBGM;
 
     private AudioSource audioSource;
 
@@ -52,6 +53,7 @@ public class GameManager : MonoBehaviour
     private IEnumerator badEndShow()
     {
         yield return new WaitForSeconds(.1f);//show time
+        PlayBGM(badEndBGM);
         badEndUI.SetActive(true);
     }
 
