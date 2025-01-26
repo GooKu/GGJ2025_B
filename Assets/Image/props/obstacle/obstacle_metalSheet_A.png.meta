@@ -1,13 +1,25 @@
 fileFormatVersion: 2
-guid: 1b92988c1c7a845439600d5167c42574
+guid: c7cd283cfba639a47aa52187afc4493e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2486736178684132657
-    second: click_Icon_0
+      213: 1821897710834347297
+    second: obstacle_metalSheet_A_0
   - first:
-      213: -3223099778636113731
-    second: click_Icon_1
+      213: 9083748406388377850
+    second: obstacle_metalSheet_A_1
+  - first:
+      213: 8561775162379424644
+    second: obstacle_metalSheet_A_2
+  - first:
+      213: 1390797506842204660
+    second: obstacle_metalSheet_A_3
+  - first:
+      213: 4373451511942703246
+    second: obstacle_metalSheet_A_4
+  - first:
+      213: -7614531167461038141
+    second: obstacle_metalSheet_A_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -99,30 +111,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: click_Icon_0
+      name: obstacle_metalSheet_A_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 7
-        width: 82
-        height: 82
+        x: 108
+        y: 17
+        width: 506
+        height: 681
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc28b6bee965d7dd0800000000000000
-      internalID: -2486736178684132657
+      spriteID: 12de06fa05ea84910800000000000000
+      internalID: 1821897710834347297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: click_Icon_1
+      name: obstacle_metalSheet_A_1
       rect:
         serializedVersion: 2
-        x: 46
-        y: 5
-        width: 45
-        height: 45
+        x: 370
+        y: 646
+        width: 59
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +152,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db811caf3df3543d0800000000000000
-      internalID: -3223099778636113731
+      spriteID: af8cccf3c05ff0e70800000000000000
+      internalID: 9083748406388377850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_metalSheet_A_2
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 682
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4835360e52981d670800000000000000
+      internalID: 8561775162379424644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_metalSheet_A_3
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 15
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f914d5b6fa1d4310800000000000000
+      internalID: 1390797506842204660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_metalSheet_A_4
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 12
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e886db38afe91bc30800000000000000
+      internalID: 4373451511942703246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_metalSheet_A_5
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 16
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c728582f30c35690800000000000000
+      internalID: -7614531167461038141
       vertices: []
       indices: 
       edges: []
@@ -172,9 +259,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      click_Icon_0: -2486736178684132657
-      click_Icon_1: -3223099778636113731
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

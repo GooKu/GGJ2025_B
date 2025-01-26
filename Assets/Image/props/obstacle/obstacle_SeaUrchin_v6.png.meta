@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 1b92988c1c7a845439600d5167c42574
+guid: 852557c2c0b3c9d49b408d9bb91c1cc0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2486736178684132657
-    second: click_Icon_0
-  - first:
-      213: -3223099778636113731
-    second: click_Icon_1
+      213: 7791306918651028155
+    second: obstacle_SeaUrchin_v6_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -99,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: click_Icon_0
+      name: obstacle_SeaUrchin_v6_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 7
-        width: 82
-        height: 82
+        x: 12
+        y: 80
+        width: 701
+        height: 551
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc28b6bee965d7dd0800000000000000
-      internalID: -2486736178684132657
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: click_Icon_1
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 5
-        width: 45
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: db811caf3df3543d0800000000000000
-      internalID: -3223099778636113731
+      spriteID: bb2ec36cc58402c60800000000000000
+      internalID: 7791306918651028155
       vertices: []
       indices: 
       edges: []
@@ -172,9 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      click_Icon_0: -2486736178684132657
-      click_Icon_1: -3223099778636113731
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

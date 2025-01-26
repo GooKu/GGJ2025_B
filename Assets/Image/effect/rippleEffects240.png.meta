@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      rippleEffects240_0: -4460441589240718675
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
