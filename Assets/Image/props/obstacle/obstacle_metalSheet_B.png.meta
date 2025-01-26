@@ -114,6 +114,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -284,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      obstacle_metalSheet_B_0: -4152673582286036549
+      obstacle_metalSheet_B_1: 1822132685609419601
+      obstacle_metalSheet_B_2: -3176307926660891312
+      obstacle_metalSheet_B_3: 1749518319657221937
+      obstacle_metalSheet_B_4: 6957293143387555477
+      obstacle_metalSheet_B_5: -8986495236638452379
+      obstacle_metalSheet_B_6: 6765345004239533494
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
